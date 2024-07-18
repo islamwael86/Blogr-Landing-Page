@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Blogr landing page](https://your-live-site-url.com)
+- Live Site URL: [Blogr landing page](https://islamwael86.github.io/Blogr-Landing-Page/)
 
 ### Built with
 
