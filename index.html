@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <img class="blogr" src="./images/logo.svg" alt="">
+      <div class="open">
+        <img id="hamimg" src="./images/icon-hamburger.svg" alt="">
+        <img id="closeimg" src="./images/icon-close.svg" alt="">
+      </div>
+      <div class="lists">
+        <div class="listproduct">
+          <div id="product" class="list">Product <img id="productimg" src="./images/icon-arrow-light.svg" alt=""> </div>
+          <ul id="ulproduct" class="ulproduct">
+            <li id="Contact1">Contact1</li>
+            <li id="Newsletter1">Newsletter1</li>
+            <li id="LinkedIn1">LinkedIn1</li>
+          </ul> 
+        </div>
+        <div class="listcompany">
+          <div id="company" class="list">Company <img id="companyimg" src="./images/icon-arrow-light.svg" alt=""> </div>
+          <ul id="ulcompany" class="ulcompany">
+            <li id="Contact2">Contact2</li>
+            <li id="Newsletter2">Newsletter2</li>
+            <li id="LinkedIn2">LinkedIn2</li>
+          </ul>
+        </div>
+        <div class="listconnect">
+          <div id="connect" class="list">Connect <img id="connectimg" src="./images/icon-arrow-light.svg" alt=""> </div>
+          <ul id="ulconnect" class="ulconnect">
+            <li id="Contact3">Contact3</li>
+            <li id="Newsletter3">Newsletter3</li>
+            <li id="LinkedIn3">LinkedIn3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="login">
+        <div id="loginfirst">Login</div>
+        <div id="loginlast">Sign Up</div>
+      </div>
+
+    </nav>
+
+    <div id="mobilelist">
+    </div>
+
+    <div id="headerbody" class="header-body">
+      <h1>A modern publishing platform</h1>
+      <h2>Grow your audience and build your online brand</h2>
+      <div class="two-button">
+        <div class="start">Start for Free</div>
+        <div class="learn">Learn More</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="one">
+      <div>
+        <h1>Designed for the future</h1>
+      </div>
+      <img class="one-mobile" src="./images/illustration-editor-mobile.svg" alt="">
+      
+      <section>
+        <section>
+          <article>
+            <h2>Introducing an extensible editor</h2>
+            <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+          </article>
+          <article>
+            <h2>Robust content management</h2>
+            <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </article>
+        </section>
+        <img class="one-desktop" src="./images/illustration-editor-desktop.svg" alt="">
+        
+      </section>
+    </section>
+
+    <section class="two">
+      <section class="mobile-img"></section>
+      <!-- I was forced to repeat the code below to match the responsive -->
+      <section class="mobile-text">
+        <h2>State of the Art Infrastructure</h2>
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </section>
+      <div>
+        <article>
+          <h2>State of the Art Infrastructure</h2>
+          <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </article>
+      </div>
+      <img class="phones" src="./images/illustration-phones.svg" alt="">
+    </section>
+
+    <section class="three">
+      <img class="three-desktop" src="./images/illustration-laptop-desktop.svg" alt="">
+      <img class="three-mobile" src="./images/illustration-laptop-mobile.svg" alt="">
+      <section>
+        <article>
+          <h2>Free, open, simple</h2>
+          <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+        </article>
+        <article>
+          <h2>Powerful tooling</h2>
+          <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+            capable of producing even the most complicated sites.</p>
+        </article>
+      </section>
+      
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <img src="./images/logo.svg" alt="">
+      <div class="product">
+        <p>Product</p>
+        <p>Overview</p>
+        <p>Pricing</p>
+        <p>Marketplace</p>
+        <p>Features</p>
+        <p>Integrations</p>
+      </div>
+      <div class="company">
+        <p>Company</p>
+        <p>About</p>
+        <p>Team</p>
+        <p>Blog</p>
+        <p>Careers</p>
+      </div>
+      <div class="connect">
+        <p>Connect</p>
+        <p>Contact</p>
+        <p>Newsletter</p>
+        <p>LinkedIn</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
